@@ -37,12 +37,12 @@ function rockClick(){
         result.textContent = `Well, It's a Tie`;
     }
     else if(randomizer() == 'paper') {
-        result.textContent = `Paper wraps Rock!`;
+        result.textContent = `You Loose! Paper wraps Rock!`;
         loss++;
         losses.textContent = loss;
     }
     else {
-        result.textContent = `Rock breaks Scissors`;
+        result.textContent = `You Win! Rock breaks Scissors`;
         win++;
         wins.textContent = win;
     }
@@ -54,12 +54,12 @@ function paperClick(){
         result.textContent = `Well, It's a Tie`;
     }
     else if(randomizer() == 'rock') {
-        result.textContent = `Paper wraps Rock!`;
+        result.textContent = `You Win! Paper wraps Rock!`;
         win++;
         wins.textContent = win;
     }
     else {
-        result.textContent = `Scissors cuts Paper`;
+        result.textContent = `You Loose! Scissors cuts Paper`;
         loss++;
         losses.textContent = loss;
     }
@@ -71,12 +71,12 @@ function scissorsClick(){
         result.textContent = `Well, It's a Tie`;
     }
     else if(randomizer() == 'rock') {
-        result.textContent = `Rock breakes Scissors`;
+        result.textContent = `You Loose! Rock breakes Scissors`;
         loss++;
         losses.textContent = loss;
     }
     else {
-        result.textContent = `Scissors cuts Paper`;
+        result.textContent = `You Win! Scissors cuts Paper`;
         win++;
         wins.textContent = win;
     }
