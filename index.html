@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Sissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome</h1>
+    <div id="images">
+        <image id="rock" class="images" onclick="rockClick()" src="images/rock.jpg"></image>
+        <image id="paper" class="images" onclick="paperClick()" src="images/paper.jpg"></image>
+        <image id="sissor" class="images" onclick="scissorsClick()" src="images/sissor.jpg"></image>
+    </div>
+
+    <table>
+        <tr>
+            <th>Wins</th>
+            <th></th>
+            <th>Losses</th>
+        </tr>
+        <tr>
+            <td id="wins">0</td>
+            <td></td>
+            <td id="losses">0</td>
+        </tr>
+    </table>
+    
+    <h2 id="h2" class="verdict">Pick one!</h2>
+    <h2 id="result" class="verdict">Bruuh</h2>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

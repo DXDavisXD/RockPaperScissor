@@ -1,0 +1,50 @@
+#images{
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    align-items: center;
+    column-gap: 20vh;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.images{
+    max-width: 300px;
+    border-radius: 500px;
+    border: none;
+    cursor: pointer;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 8rem;
+    font-family: 'calibri';
+    margin-top: 0%;
+    margin-bottom: 50px;
+}
+
+#result{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    position: relative;
+}
+table{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    font-size: 25px;
+    max-width: 83%;
+    position: relative;
+    top: 30px;
+}
